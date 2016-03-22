@@ -1,2 +1,2 @@
 # Practise_Python
-This repository i for storing practice python codes
+This repository is for storing practice python codes
