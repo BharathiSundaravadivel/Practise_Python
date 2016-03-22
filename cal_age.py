@@ -16,25 +16,20 @@ def caluclateCentYear(curr_age,name,num):
                 print("Number Cannot be Zero")
                 return
         else:
-                print ("\nPrinting "+str(num)+" Times\n")
                 printNum(num,name,cent_age)
                 printNumMultLine(num,name,cent_age)
                 return
     
 
 def printNum(number,name,cent_age):
-        i=1
-        while(i<=number):
-                        print ("Hello "+name+", You will turn Hundred in " + str(cent_age)+"\n")
-                        i+=1
+        print ("\nPrinting "+str(num)+" Times\n")
+        print (("Hello "+name+", You will turn Hundred in " + str(cent_age)+"\n")*number)
         print("Printed the Lines "+": "+str(number) + " times\n")
         
 def printNumMultLine(number,name,cent_age):
-        i=1
-        while(i<=number):
-                        print ("Hello "+name+",\nYou will turn Hundred in\n" + str(cent_age)+"\n")
-                        i+=1
-        print("Printed the Lines "+": "+str(number) + " times in Multiple Lines")
+        print ("\nPrinting "+str(num)+" Times, Split into Multiple Lines\n")
+        print (("Hello "+name+",\nYou will turn Hundred in\n" + str(cent_age)+"\n")*number)   
+        print("Printed the Lines "+": "+str(number) + " times, spit into Multiple Lines")
         
 
 name = input("Enter your Name:")
